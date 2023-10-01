@@ -1,0 +1,29 @@
+1. ?- moreEffectiveThan(strong,superweak).
+   true
+
+2. ?- moreEffectiveThan(weak,ordinary).
+   false
+
+3. ?- moreEffectiveThan(ordinary,superweak).
+   true
+
+4. ?- moreEffectiveThan(superweak,strong).
+   false
+
+5. ?- monsterMoveTypeMatch(waterGun,chewtle).
+   true
+
+6. ?- monsterMoveTypeMatch(tackle,shuppet).
+   false
+
+7. ?-moreEffectiveTypeMove(fire,waterGun,headbutt).
+   true
+
+8. ?-moreEffectiveTypeMove(ghost,tackle,shadowBall).
+   false
+
+9. ?-moreEffectiveMonsterMove(chewtle,rapidash,waterGun,flameCharge).
+   true
+
+10. ?-moreEffectiveMonsterMove(wooloo,pansage,grassySlide,tackle).
+   false
